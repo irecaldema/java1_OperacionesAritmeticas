@@ -8,7 +8,8 @@ public class Main {
 
 	public static void main (String args[]) {
 
-		int numero1, numero2, resultadoSuma, resultadoResta;
+		int numero1, numero2, resultadoSuma, resultadoResta, resultadoMultiplicacion;
+		float resultadoDivision;
 		Arithmetic operaciones = new Arithmetic();
 		
 		Scanner sc = new Scanner(System.in);
@@ -20,6 +21,8 @@ public class Main {
 
 		resultadoSuma = operaciones.sum(numero1, numero2);
 		resultadoResta = operaciones.rest(numero1, numero2);
+		resultadoDivision = operaciones.div(numero1, numero2)
+		resultadoMultiplicacion = operaciones.multiply(numero1, numero2)
 
 		System.out.println("\nEl resultado de la SUMA es: " + resultadoSuma);
 		System.out.println("\nEl resultado de la RESTA es: " + resultadoResta);
