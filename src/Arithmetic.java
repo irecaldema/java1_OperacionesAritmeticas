@@ -22,7 +22,7 @@ public class Arithmetic {
 	return result;
  }
 
- public float div (int num1, int num2) {
+ public double div (int num1, int num2) {
 
 	int result = 0;
 	result = num1 / num2;

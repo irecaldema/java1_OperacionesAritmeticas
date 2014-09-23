@@ -9,7 +9,7 @@ public class Main {
 	public static void main (String args[]) {
 
 		int numero1, numero2, resultadoSuma, resultadoResta, resultadoMultiplicacion;
-		float resultadoDivision;
+		double resultadoDivision;
 		Arithmetic operaciones = new Arithmetic();
 		
 		Scanner sc = new Scanner(System.in);
