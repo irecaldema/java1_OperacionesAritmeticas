@@ -26,7 +26,9 @@ public class Main {
 
 		System.out.println("\nEl resultado de la SUMA es: " + resultadoSuma);
 		System.out.println("\nEl resultado de la RESTA es: " + resultadoResta);
-	
+		System.out.println("\nEl resultado de la DIVISION es: " + resultadoDivision);
+		System.out.println("\nEl resultado de la MULTIPLICACION es: " + resultadoMultiplicacion);
+
 		System.out.println("\n\nEGUN ONA IZAN!!\n");
 	}
 }
